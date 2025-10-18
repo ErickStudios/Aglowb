@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Aglowb</title>
+  <style>
+  body {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  h4 {
+    color: #ffffff;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+  h6 {
+    color: #909090;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 10px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+  </style>
+</head>
+<body>
+  <h1>Escribe cualquuier cosa</h1>
+  <textarea id="input" placeholder="Escribe aquí..."></textarea>
+  
+  <script src="./Aglowb.js" type="module">
+  </script>
+
+  <button onclick="publicar()">Publicar</button>
+  <h2>Escenas escritas:</h2>
+  <ul id="Aglowb"></ul>
+</body>
+</html>

@@ -1,0 +1,26 @@
+{//(/**
+* Module Name:
+*
+*    ReaderSyntax.literature
+*
+* Abstract:
+*
+*   Sintaxis para la literatura
+*
+*/)}
+
+{//(
+	lo importante
+)}
+
+{//(el texto que dice)}
+<h4>{%xmlEncodedString()}</h4>{Enum.Chars.NewLine}
+
+{//(
+	fecha
+)}
+
+{//(cuando se creo)}
+<h6>--el {%number()}/{%number()}/{%number()} 
+{//(a que horas se creo)}
+a las {%number()}:{%number()}:{%number()}</h6> {Enum.Chars.NewLine}
