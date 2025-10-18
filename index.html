@@ -29,17 +29,27 @@
     font-weight: bold;
     unicode-bidi: isolate;
 }
+
+textarea {
+    background: #1e1e1e;
+    border-color: #606060;
+    color: #ffffff;
+}
   </style>
 </head>
 <body>
-  <h1>Escribe cualquuier cosa</h1>
-  <textarea id="input" placeholder="Escribe aquí..."></textarea>
-  
+
+
   <script src="./Aglowb.js" type="module">
   </script>
 
+  <h1 style="text-align: center;">Aglowb</h1>
+  <h3 style="text-align: center;">Un libro de firmas publico</h3>
+  <div style="display: flex; justify-content: center; align-items: center; height: 100px;">
+  <textarea id="input" placeholder="Escribe aquí..." style="text-align: center;"></textarea>
   <button onclick="publicar()">Publicar</button>
-  <h2>Escenas escritas:</h2>
+</div>
+
   <ul id="Aglowb"></ul>
 </body>
 </html>
