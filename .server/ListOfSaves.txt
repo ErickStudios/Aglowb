@@ -1,1 +1,46 @@
+<<<<<<< HEAD
 <!--valio burger todo, reseteo el server-->
+=======
+<h4>fg</h4>
+<h6>--el 6/9/2025 a las 16:33:33</h6> 
+<h4>rr</h4>
+<h6>--el 6/9/2025 a las 16:37:27</h6> 
+<h4>ggd</h4>
+<h6>--el 6/9/2025 a las 16:41:11</h6> 
+<h4>fgd</h4>
+<h6>--el 6/9/2025 a las 16:43:23</h6> 
+<h4>df</h4>
+<h6>--el 6/9/2025 a las 16:44:2</h6> 
+<h4>gg</h4>
+<h6>--el 6/9/2025 a las 16:45:16</h6> 
+<h4>Buenas gente como estan, yo estoy excelente, "quiero que se repita la ocasion"</h4>
+<h6>--el 6/9/2025 a las 16:46:32</h6> 
+<h4>fg</h4>
+<h6>--el 6/9/2025 a las 16:56:53</h6> 
+<h4>g</h4>
+<h6>--el 6/9/2025 a las 16:58:15</h6> 
+<h4>fd</h4>
+<h6>--el 6/9/2025 a las 17:1:57</h6> 
+<h4>fd</h4>
+<h6>--el 6/9/2025 a las 17:2:0</h6> 
+<h4>fsd</h4>
+<h6>--el 6/9/2025 a las 17:4:13</h6> 
+<h4>gv</h4>
+<h6>--el 6/9/2025 a las 17:5:17</h6> 
+<h4>que es mmio</h4>
+<h6>--el 6/9/2025 a las 17:7:32</h6> 
+<h4>por que</h4>
+<h6>--el 6/9/2025 a las 17:12:58</h6> 
+<h4>***</h4>
+<h6>--el 6/9/2025 a las 17:35:20</h6> 
+<h4>******</h4>
+<h6>--el 6/9/2025 a las 17:37:9</h6> 
+<h4></h4>
+<h6>--el 6/9/2025 a las 17:46:12</h6> 
+<!--@MarkOffPost-->
+<h4>fg</h4>
+<h6>--el 6/9/2025 a las 17:50:4</h6> 
+<!--@MarkOffPost-->
+<h4>primer post con valoracion?</h4>
+<h6>--el 6/9/2025 a las 17:53:57</h6> 
+>>>>>>> 667a75c861444904b007018fb43e7fe9ac9641cd
