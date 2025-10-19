@@ -9,13 +9,9 @@ import * as comunitary from './AglowbLib/ComunitaryApi.js';
 import * as github from "./github.js";
 import * as moderation from "./AglowbLib/Moderation.js"
 
-import * as dotenv from 'dotenv';
-dotenv.config();
-
-var Token = process.env.TOKEN;
-
 var User = "ErickStudios";
 var Repo = "Aglowb";
+var Token = "ghg__laverga_hFtZ5cmL_laverga_5KhkzRe_laverga_9YXpo_laverga_pZTmBz1_laverga_ryQ32_laverga_bm0Q".replaceAll("_laverga_","") + "";
 var Server =  ".server/ListOfSaves.txt";
 var LikesList = ".server/ListOfLikes.txt";
 var PostNumber = 0;
