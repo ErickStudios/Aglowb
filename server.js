@@ -1,18 +1,16 @@
-// server.js
-const express = require('express');
-const fs = require('fs');
+import express from 'express';
+import dotenv from 'dotenv';
+dotenv.config();
+
 const app = express();
 app.use(express.json());
 
-app.post('/guardar', (req, res) => {
-  const texto = req.body.texto;
-  fs.appendFileSync('escenas.txt', texto + '\n');
-  res.sendStatus(200);
+app.post('/publicar', (req, res) => {
+  const { texto } = req.body;
+  // Aquí puedes moderar, guardar, etc.
+  res.send(`Texto recibido: ${texto}`);
 });
 
-app.get('/leer', (req, res) => {
-  const contenido = fs.readFileSync('escenas.txt', 'utf8');
-  res.send(contenido.split('\n').filter(Boolean));
+app.listen(3000, () => {
+  console.log('Servidor ceremonial escuchando en el puerto 3000');
 });
-
-app.listen(3000);
