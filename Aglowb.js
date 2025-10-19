@@ -80,7 +80,7 @@ window.realoadPosts = Reload;
  * cuando alguien le da like
  * @param {number} to a que publicacion
  */
-windows.likeadd = async function (to) {
+window.likeadd = async function (to) {
         
     let ps = [
         to
