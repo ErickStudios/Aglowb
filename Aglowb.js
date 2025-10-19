@@ -11,7 +11,7 @@ import * as moderation from "./AglowbLib/Moderation.js"
 
 var User = "ErickStudios";
 var Repo = "Aglowb";
-var Token = "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";
+var Token = "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";
 var Server =  ".server/ListOfSaves.txt";
 var LikesList = ".server/ListOfLikes.txt";
 var PostNumber = 0;
@@ -62,13 +62,29 @@ async function Reload()
     document.body.innerHTML = originhtml;
 
     let Psts = await github.getGithubFile({file: Server, repo: Repo, username: User});
+    let Likes = await github.getGithubFile({file: LikesList, repo: Repo, username: User});
+
     let Posts = Psts.split("<!--@MarkOffPost-->\n");
+    let LikesArray = Likes.split("\n");
 
     PostNumber = 0;
     Posts.forEach(element => {
+
          document.body.innerHTML += element
-         document.body.innerHTML += "<h6>Votos: ?</h6>"
-        PostNumber++;
+
+         let likes = 0;
+
+         LikesArray.forEach(elementA => {
+            if (elementA.startsWith("#" + PostNumber))
+            {
+                likes++;
+            }
+         });
+
+         document.body.innerHTML += "<h6>Votos: " + likes + "</h6>"
+         document.body.innerHTML += `<button onclick="likeadd(` + PostNumber + `)">Votar</button>`
+
+         PostNumber++;
     });
 }
 
