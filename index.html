@@ -1,55 +1,82 @@
+<!--
+Aglowb
+-->
+
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Aglowb</title>
-  <style>
-  body {
-    background-color: #1e1e1e;
-    color: #ffffff;
-    font-family: Arial, sans-serif;
-    margin: 20px;
-  }
-  h4 {
-    color: #ffffff;
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-    unicode-bidi: isolate;
-}
-  h6 {
-    color: #909090;
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 10px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-    unicode-bidi: isolate;
-}
+    <head>
+        <!--el titulo-->
+        <title>Aglowb</title>
 
-textarea {
-    background: #1e1e1e;
-    border-color: #606060;
-    color: #ffffff;
-}
-  </style>
-</head>
-<body>
+        <!--el estilo-->
+        <style>
+            body {
+                background-color: #1e1e1e; color: #ffffff; font-family: Arial, sans-serif;  
+                margin: 0; padding: 0;
+            }
+            h4 {
+                color: #ffffff; display: block; 
+                margin-block-start: 1em; margin-block-end: 1em; margin-inline-start: 0px; margin-inline-end: 0px;
+                font-weight: bold; unicode-bidi: isolate;
+                }
 
+            h1 {
+                margin: 0;padding: 0;
+            }
 
-  <script src="./Aglowb.js" type="module">
-  </script>
+            h3 {
+                margin: 0;
+                color: #909090;
 
-  <h1 style="text-align: center;">Aglowb</h1>
-  <h3 style="text-align: center;">Un libro de firmas publico</h3>
-  <div style="display: flex; justify-content: center; align-items: center; height: 100px;">
-  <textarea id="input" placeholder="Escribe aquí..." style="text-align: center;"></textarea>
-  <button onclick="publicar()">Publicar</button>
-</div>
+            padding: 0;
+            }
+            h6 {
+                color: #909090;
+                display: block;
+                margin-block-start: 1em;
+                margin-block-end: 1em;
+                margin-inline-start: 10px;
+                margin-inline-end: 0px;
+                font-weight: bold;
+                unicode-bidi: isolate;
+            }
 
-  <ul id="Aglowb"></ul>
-</body>
+            textarea {
+                background: #1e1e1e;
+                border-color: #606060;
+                color: #ffffff;
+            }
+        </style>
+    </head>
+    <body style="  margin: 0;padding: 0;">
+
+        <!--incluir funciones principales-->
+        <script src="./Aglowb.js" type="module"></script>
+
+        <div style="background-color: #1e1e1e;">
+            <h4>xd</h4>
+            <h6>xd</h6>
+            <button onclick="likeadd(1)"></button>
+        </div>
+
+        <!--la cabeza-->
+        <header style="background-color: #101010; width: 100%; margin: 0; padding: 0;">
+            <!--titulo de la plataforma-->
+            <h1 style="text-align: center;">Aglowb</h1>
+
+            <!--slogan-->
+            <h3 style="text-align: center;">Un libro de firmas publico</h3>
+        </header>
+        <!--un separador-->
+        <h1 style="color: #1e1e1e;">.</h1>
+
+        <!--el input-->
+        <div style="display: flex; flex-direction: column; align-items: center; gap: 10px;">
+            <!--el input donde puedes escribir lo que sea-->
+            <textarea id="input" placeholder="Escribe aquí..." style="text-align: center;"></textarea>
+            
+            <!--el boton para publicar-->
+            <button onclick="publicar()">Publicar</button>
+        </div>
+    </body>
 </html>
